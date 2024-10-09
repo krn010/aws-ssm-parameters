@@ -1,8 +1,11 @@
 variable "key_id" {
-  default = "arn:aws:kms:us-east-1:058264276232:key/e83848eb-87eb-4ed9-970b-9fa81dbc7b49" }
+  default = "arn:aws:kms:us-east-1:058264276232:key/e83848eb-87eb-4ed9-970b-9fa81dbc7b49"
+
+}
+
 variable "parameters" {
   default = {
-        "dev.expense.rds.username" = "admin1"
+    "dev.expense.rds.username" = "admin1"
   }
 
 }
