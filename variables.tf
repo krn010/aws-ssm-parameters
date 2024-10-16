@@ -6,6 +6,7 @@ variable "key_id" {
 variable "parameters" {
   default = {
     "dev.expense.rds.username" = "admin1"
+    "dev.expense.rds.endpoint" = "dev-expense-rds.czeekmswmuyb.us-east-1.rds.amazonaws.com"
   }
 
 }
